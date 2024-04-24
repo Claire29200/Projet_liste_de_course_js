@@ -1,0 +1,31 @@
+/* Ce fichier css contient les déclarations de poliv=ce locales utilisées dans l'application de la liste de courses. comprends les importations et définitions des polices locales
+*/
+
+@font-face {
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: normal;
+    src: local('OpenSans'), url('../fonts/OpenSans-Bold.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-weight: normal;
+    font-style: normal;
+    src: local('OpenSans'), url('../fonts/OpenSans-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-style: normal;
+    src: local('Poppins'), url('../fonts/Poppins-Bold.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Poppins'), url('../fonts/Poppins-Regular.ttf') format('truetype'); 
+}
+
+

@@ -1,0 +1,40 @@
+/* fichier css qui contient les styles pour l'application de la liste de courseset comprends les styles pour la MEF des différents éléments de l'application*/
+
+
+/* importation de la police */
+
+@import url('./fonts.css');
+
+/* définition des variables css personnalisées */
+
+:root {
+    --border-color: #e3e5e4;
+    /* couleur de la bordure */
+    --background-color: #c3c7ca;
+   /* couleur de fond*/
+   --text-color: #34444f;
+   /* couleur du texte */
+   --font1: "Poppins",  sans-serif;
+   /* les polices de caractères */
+   --font2: "OpenSans",  sans-serif;
+   --background-image: url('.img/background.jpg');
+}
+
+/* Remise à zéro des marges et des paddings sur tous les éléments */
+*{
+    box-sizing: border-box;
+}
+/* Styles pour le corps du document*/
+
+body{
+background-color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+height: 100vh;
+margin: 0;
+font-family: var(--font1);
+
+
+}
